@@ -1,0 +1,9 @@
+<p>parent-one works!</p>
+<form [formGroup]="formOne">
+    <input type="text" formControlName="name" placeholder="Type Name">
+    <input type="text" formControlName="age" placeholder="Type Age">
+    <input type="text" formControlName="place" placeholder="Type Place">
+    <input type="submit" value="Send" (click)="send()">
+</form>
+
+<app-child-one [message]="parentData"></app-child-one>

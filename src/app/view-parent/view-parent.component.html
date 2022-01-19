@@ -1,4 +1,8 @@
 <p>view-parent works!</p>
 <app-view-child></app-view-child>
 
-<p>Message from Child {{message}}</p>
+<p *ngFor = "let m of message">
+    Name from Child :<b> {{m.name}}</b>
+    Age from Child :<b> {{m.age}}</b>
+    Place from Child :<b> {{m.place}}</b>
+</p>

@@ -1,7 +1,7 @@
 <p>view-child works!</p>
 <form [formGroup]="viewChildForm">
     <input type="text" placeholder="Type Name here" formControlName="name">
+    <input type="text" placeholder="Type Age here" formControlName="age">
+    <input type="text" placeholder="Type Place here" formControlName="place">
     <input type="submit" value="View" (click)="sendData()">
 </form>
-
-Message to Parent : {{childData}}

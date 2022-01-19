@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChildViewComponent } from './child-view.component';
+import { LsArrTwoComponent } from './ls-arr-two.component';
 
-describe('ChildViewComponent', () => {
-  let component: ChildViewComponent;
-  let fixture: ComponentFixture<ChildViewComponent>;
+describe('LsArrTwoComponent', () => {
+  let component: LsArrTwoComponent;
+  let fixture: ComponentFixture<LsArrTwoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ChildViewComponent ]
+      declarations: [ LsArrTwoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ChildViewComponent);
+    fixture = TestBed.createComponent(LsArrTwoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

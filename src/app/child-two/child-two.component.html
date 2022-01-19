@@ -1,0 +1,7 @@
+<p>child-two works!</p>
+<p>Message from Parent : <strong> {{frmParent}} </strong></p>
+<p>Message from Sibling : <strong> {{frmSibling}} </strong></p>
+<form>
+    <input type="text" name="msgSibTwo" [(ngModel)]="msgSibTwo" placeholder="Enter message to Sibling">
+    <input type="button" value="Send" (click)="toSiblingOne()">
+</form>

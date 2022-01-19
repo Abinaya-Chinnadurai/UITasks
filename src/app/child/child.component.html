@@ -1,2 +1,14 @@
 <p>child works!</p>
-<p>Message given by Parent is {{data}}</p>
+<p>Message given by Parent is <b> {{data}} </b> </p>
+
+<form>
+    <input type="text" name="childMessage" [(ngModel)]="childMessage" placeholder="Enter message to Parent">
+    <input type="button" value="Send" (click)="toParent()">
+</form>
+<br>
+<form>
+    <input type="text" name="msgSib" [(ngModel)]="msgSib" placeholder="Enter message to Sibling">
+    <input type="button" value="Send" (click)="toSibling()">
+</form>
+<br>
+<p>Message from Sibling : <strong> {{msgFrmSiblingTwo}} </strong></p>

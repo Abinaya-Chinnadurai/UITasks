@@ -9,8 +9,7 @@ import { FormBuilder } from '@angular/forms';
 export class LsCompOneComponent implements OnInit {
 
   lsForm = this.formbuilder.group({data:['']})
-  str : string
-
+  
   constructor(private formbuilder:FormBuilder) {    
       
    }

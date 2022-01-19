@@ -10,7 +10,7 @@ export class ViewParentComponent implements OnInit, AfterViewInit {
 
   @ViewChild(ViewChildComponent) child : ViewChildComponent;
 
-  message : string
+  message :any=[]
 
   constructor(private cd : ChangeDetectorRef) { }
 

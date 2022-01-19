@@ -10,14 +10,40 @@ export class ParentComponent implements OnInit {
 
   parentForm = this.formbuilder.group({data:['']})
 
-  message:any = ' "I am sent by Parent" '
+  message:any
+  msg:string
+  msgToChildTwo:any
+  msgToSib:string
+  msgToSibOne : string
 
-  send(){
+  sendToChildren(){
+    this.message = this.parentForm.value;
+    this.msgToChildTwo = this.parentForm.value;
+    this.parentForm.reset()
+  }
+  sendToChildOne(){
      this.message = this.parentForm.value;
      this.parentForm.reset()
   }
+  sendToChildTwo(){
+    this.msgToChildTwo = this.parentForm.value;
+    this.parentForm.reset()
+ }
 
-  constructor(private formbuilder:FormBuilder) { }
+  receiveMsgFrmChild($event : any){
+   this.msg=$event
+  }
+  
+  msgToSibling($event : any){
+     this.msgToSib = $event
+  }
+
+  msgToSiblingOne($event : any){
+   this.msgToSibOne = $event
+  }
+
+  constructor(private formbuilder:FormBuilder) { 
+  }
 
   ngOnInit(): void {
   }

@@ -8,17 +8,21 @@ import { FormBuilder } from '@angular/forms';
 })
 export class ViewChildComponent implements OnInit {
 
-  childData : string = "Data from Child";
+  childData : any=[];
 
-  viewChildForm = this.fb.group({name:['']})
+  viewChildForm = this.fb.group({
+    name:[''],age:[''],place:['']
+  })
 
   constructor(private fb : FormBuilder) { }
 
   ngOnInit(): void {
   }
 
-  sendData(){
-    this.childData = this.viewChildForm.get('name')?.value
+  public sendData(){
+    //this.childData = this.viewChildForm.value
+    this.childData.push(this.viewChildForm.value)
+    this.viewChildForm.reset()
   }
 
 }

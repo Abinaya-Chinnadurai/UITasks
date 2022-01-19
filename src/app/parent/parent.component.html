@@ -1,7 +1,25 @@
+<div class="parent">
 <p>parent works!</p>
 <form [formGroup] = "parentForm">
 <input type="text" name="data" formControlName="data"  placeholder="Type to send...">
-<input type="button" (click)="send()" value="send">
-</form>
-<app-child [data]="message.data"></app-child>
+<input type="button" (click)="sendToChildren()" value="Both">
+<input type="button" (click)="sendToChildOne()" value="ChildOne">
+<input type="button" (click)="sendToChildTwo()" value="ChildTwo">
+</form><br>
 
+<div class="row">
+<div class="col-md-6">
+<div class="childOne">
+<app-child [data]="message.data" [msgFrmSiblingTwo]="msgToSibOne" (childMsg)="receiveMsgFrmChild($event)" (msgToSib)="msgToSibling($event)"></app-child>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="childTwo">
+<app-child-two [frmSibling]="msgToSib" [frmParent]="msgToChildTwo.data" (msgfrmSibTwo)="msgToSiblingOne($event)"></app-child-two>
+</div>
+</div>
+</div><br>
+
+<p>Message from Child: <b>{{msg}} </b> </p>
+</div>

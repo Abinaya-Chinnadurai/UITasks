@@ -18,8 +18,13 @@ import { LsCompOneComponent } from './ls-comp-one/ls-comp-one.component';
 import { LsCompTwoComponent } from './ls-comp-two/ls-comp-two.component';
 import { ViewParentComponent } from './view-parent/view-parent.component';
 import { ViewChildComponent } from './view-child/view-child.component';
-import { ParentViewComponent } from './parent-view/parent-view.component';
-import { ChildViewComponent } from './child-view/child-view.component';
+import { ParentOneComponent } from './parent-one/parent-one.component';
+import { ChildOneComponent } from './child-one/child-one.component';
+import { ViewChildMethodParentComponent } from './view-child-method-parent/view-child-method-parent.component';
+import { ViewChildMethodChildComponent } from './view-child-method-child/view-child-method-child.component';
+import { LsArrOneComponent } from './ls-arr-one/ls-arr-one.component';
+import { LsArrTwoComponent } from './ls-arr-two/ls-arr-two.component';
+import { ChildTwoComponent } from './child-two/child-two.component';
 
 
 @NgModule({
@@ -39,8 +44,13 @@ import { ChildViewComponent } from './child-view/child-view.component';
     LsCompTwoComponent,
     ViewParentComponent,
     ViewChildComponent,
-    ParentViewComponent,
-    ChildViewComponent,
+    ParentOneComponent,
+    ChildOneComponent,
+    ViewChildMethodParentComponent,
+    ViewChildMethodChildComponent,
+    LsArrOneComponent,
+    LsArrTwoComponent,
+    ChildTwoComponent,
   ],
   imports: [
     BrowserModule,
