@@ -8,16 +8,12 @@
 </form><br>
 
 <div class="row">
-<div class="col-md-6">
-<div class="childOne">
+<div class="col-md-6 childOne">
 <app-child [data]="message.data" [msgFrmSiblingTwo]="msgToSibOne" (childMsg)="receiveMsgFrmChild($event)" (msgToSib)="msgToSibling($event)"></app-child>
 </div>
-</div>
 
-<div class="col-md-6">
-<div class="childTwo">
+<div class="col-md-6 childTwo">
 <app-child-two [frmSibling]="msgToSib" [frmParent]="msgToChildTwo.data" (msgfrmSibTwo)="msgToSiblingOne($event)"></app-child-two>
-</div>
 </div>
 </div><br>
 
