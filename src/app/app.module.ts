@@ -22,8 +22,6 @@ import { ParentOneComponent } from './parent-one/parent-one.component';
 import { ChildOneComponent } from './child-one/child-one.component';
 import { ViewChildMethodParentComponent } from './view-child-method-parent/view-child-method-parent.component';
 import { ViewChildMethodChildComponent } from './view-child-method-child/view-child-method-child.component';
-import { LsArrOneComponent } from './ls-arr-one/ls-arr-one.component';
-import { LsArrTwoComponent } from './ls-arr-two/ls-arr-two.component';
 import { ChildTwoComponent } from './child-two/child-two.component';
 
 
@@ -48,8 +46,6 @@ import { ChildTwoComponent } from './child-two/child-two.component';
     ChildOneComponent,
     ViewChildMethodParentComponent,
     ViewChildMethodChildComponent,
-    LsArrOneComponent,
-    LsArrTwoComponent,
     ChildTwoComponent,
   ],
   imports: [
