@@ -1,0 +1,110 @@
+/*Founder*/
+
+.person-image img{
+    flex: 0 0 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 70px;
+}
+
+.name{
+    font-weight: 800;
+}
+.role{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.name,.role{
+    line-height: 1.2;
+    font-size: 14px;
+    display: block;
+}
+
+@media only screen and (min-width: 992px) {
+    .founder {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 1400px;
+    }
+    
+    
+    .founder-image {   
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        top: -50px;
+        right: -50px;
+        position: relative
+    }
+    
+    
+    .founder-para {
+        color: #fff;
+        background: #5cccc9;
+        font-size: 25pt;
+        padding: 30px;
+        padding-left: 100px;
+        grid-column-start: 4;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: -2;
+    }
+}
+
+@media only screen and (max-width: 992px) {    
+    .founder {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        max-width: 1400px;
+    }
+    
+    
+    .founder-image {   
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        top: -50px;
+        right: -50px;
+        position: relative
+    }
+    
+    
+    .founder-para {
+        color: #fff;
+        background: #5cccc9;
+        font-size: 10pt;
+        padding: 20px;
+        padding-left: 100px;
+        grid-column-start: 4;
+        grid-column-end: -1;
+        grid-row-start: 2;
+        grid-row-end: -2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .founder{
+      display: inline-block;
+    }
+
+    .founder-image{
+        float: left;
+        width: 50%;
+        height: 200px;
+    }
+    .founder-para{
+        float: right;
+        width: 50%;
+        height: 200px;
+    }
+}

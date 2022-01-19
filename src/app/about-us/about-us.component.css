@@ -1,0 +1,194 @@
+.abt-us{
+    padding: 100px 0;
+    position: relative;
+}
+
+.title{
+    color: #5cccc9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.abt-us .para{
+    padding-left:15%;
+    padding-right: 15%;
+    padding-bottom:2%;
+    font-size: 27pt;
+}
+
+.text-fifteen{
+    color:#5cccc9 ;
+}
+  .icons .icon{
+        margin-bottom: 20px;
+        display: inline-block;
+        line-height: 90px;
+        border-radius: 50%;
+        background: #5cccc9;
+        text-align: center;
+        color: #ffffff;
+    }  
+    .bg-right{
+        position: absolute;
+        height: 100%;
+        background: #ffffff;
+        right: 0;
+        top: 0;
+    }
+    .icon-row p{
+        color: grey;
+    }
+
+@media only screen and (min-width: 992px) {
+    .icons .icon{
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }   
+    .bg-right{
+        width: 50%;
+    }
+    .abt-us .icon-row .one{
+        margin-left: -70pt;
+    }
+}
+
+@media only screen and (min-width:426px) and (max-width:768px){
+    .icons .icon{
+        margin-left: 280pt;
+        width: 180px;
+        height: 180px;
+        font-size: 90px;
+        padding-top: 4%;
+        margin-top: 10px;
+    } 
+    .bg-right{
+     width: 40%;
+    }
+    .title{
+        font-size:20pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left: 190pt;
+    }
+    .abt-us .para{
+        font-size: 55pt;
+        width: 240vh;
+        margin-left: -200pt;
+    }
+   .abt-us .icon-row h3{
+       font-size: 30pt;
+       font-weight: 550;
+       margin-left: 230pt;
+       width: 100vh;
+   }
+   .abt-us .icon-row .exp{
+       width: 170vh;
+       font-size: 40pt;
+       font-weight: 500;
+       margin-left:50pt;
+   }
+   .abt-us .icon-row .two{
+    margin-left:270pt;
+}
+.icon-row p{
+    font-size: 35px;
+    width: 200vh;
+}
+}
+
+@media only screen and (min-width:375px) and (max-width:426px){
+    .icons .icon{
+        margin-left:110vh;
+        width: 250pt;
+        height: 250pt;
+        font-size: 100pt;
+        padding-top:9%;
+        margin-top:30pt;
+    } 
+    .bg-right{
+     width:15%;
+    }
+    .title{
+        font-size:35pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left:110vh;
+    }
+    .abt-us .para{
+        font-size:110pt;
+        width:310vh;
+        margin-left:-80pt;
+        margin-bottom: 50pt;
+    }
+   .abt-us .icon-row h3{
+       font-size:70pt;
+       font-weight:550;
+       margin-left:80vh;
+       width: 200vh;
+   }
+   .abt-us .icon-row .exp{
+    font-size:60pt;
+    font-weight: 550;
+    margin-left:8vh;
+    width:240vh;
+   }
+   .abt-us .icon-row .two{
+    margin-left:100vh;
+}
+.icon-row p{
+    font-size:50pt;
+    width: 230vh;
+    margin-left:55pt;
+}
+}
+
+@media only screen and (max-width:320px){
+    .icons .icon{
+        margin-left:80vh;
+        width: 250pt;
+        height: 250pt;
+        font-size: 100pt;
+        padding-top:9%;
+        margin-top:30pt;
+    } 
+    .bg-right{
+     width:25%;
+    }
+    .title{
+        font-size:35pt;
+        font-weight: 800;
+        margin-bottom: 10px;
+        margin-left:70vh;
+    }
+    .abt-us .para{
+        font-size:100pt;
+        width:240vh;
+        margin-left:-100pt;
+        margin-bottom: 50pt;
+    }
+   .abt-us .icon-row h3{
+       font-size:70pt;
+       font-weight:550;
+       margin-left:50vh;
+       width: 200vh;
+   }
+   .abt-us .icon-row .exp{
+    font-size:60pt;
+    font-weight: 550;
+    width:180vh;
+   }
+   .abt-us .icon-row .two{
+    margin-left:80vh;
+}
+.icon-row p{
+    font-size:50pt;
+    width: 200vh;
+    margin-left:0pt;
+}
+}
+
+

@@ -1,0 +1,152 @@
+.container1,.container2{
+    height: 100vh;
+    width: 100%;
+}
+.container1{
+    background: #f8f9fa;
+    
+}
+.container2{
+    background: #ffffff;
+}
+p{
+    color: #5cccc9;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.h2{
+    color: #333333;
+    font-family: serif;
+    font-size: 32px;
+    margin-right: 500px;
+}
+
+.wrap-icon {
+    margin-top: 180px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background: rgb(92, 204, 201);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.text1{
+    font-family: "Libre Baskerville", serif;
+    font-size:18px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.text2{
+    font-family: "Libre Baskerville", serif;
+    font-size:18px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+.data{
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    margin-right: 270px;
+}
+.wrap-icon2
+ {
+   
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background: #5cccc9;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+.data1{
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+ 
+   
+}
+.wrap-icon3
+ {
+    margin-top: 100px;
+    margin-left: 70px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background: rgb(92, 204, 201);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.text3{
+    font-family: "Libre Baskerville", serif;
+    font-size:18px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.data2{
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 16px;
+
+}
+
+
+.image1 {
+  height: 200px;
+  width: 250px;
+  margin-left: -470px;
+  margin-top: 300px;
+}
+
+.image2{
+    height: 400px;
+    width: 500px;
+    
+    margin-left: 500px;
+
+}
+
+.continer3{
+    text-align: center;
+}
+.icons .icon{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    background: #5cccc9;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+.title{
+    text-align: center;
+}
+.data4{
+    font-family: serif;
+    font-size: 18px;
+    
+}
+.h5{
+    font-family: serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

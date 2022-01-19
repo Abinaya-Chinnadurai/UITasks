@@ -1,0 +1,7 @@
+<p>parent works!</p>
+<form [formGroup] = "parentForm">
+<input type="text" name="data" formControlName="data"  placeholder="Type to send...">
+<input type="button" (click)="send()" value="send">
+</form>
+<app-child [data]="message.data"></app-child>
+
